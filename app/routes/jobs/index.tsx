@@ -1,10 +1,9 @@
 import { Link, useLoaderData } from 'remix'
-import { getJobs } from '~/job'
 
 import type { Job } from '~/job'
 
 export const loader = () => {
-  return getJobs()
+  return []
 }
 
 export default function Jobs() {
